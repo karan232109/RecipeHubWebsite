@@ -1,0 +1,246 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu-bar{
+    background:rgba(5, 6, 5, 0.963);
+    text-align: center; 
+    position: relative; 
+    padding-left: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li{
+    width: 160px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.active, .menu-bar ul li:hover{
+    background: #f76f00;
+    border-radius: 3px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+  /* Dropdown Content (Hidden by Default)*/ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(5, 6, 5, 0.963);;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(5, 6, 5, 0.963);;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(5, 6, 5, 0.963);;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown3-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(5, 6, 5, 0.963);;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+.dropdown3:hover .dropdown3-content {
+    display: block;
+}
+
+.Disc{
+    list-style-type: square;
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    color:var(--black);
+    text-align: center;
+}
+.heading span{
+    background: #f76f00;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+#recipes{
+    margin:20px;
+    display: flex;
+   
+}
+#recipes .box{
+    border:2px solid brown;
+    padding:34px;
+    margin:2px 55px;
+    border-radius:28px;
+    background: #f2f2f2;
+    margin-bottom:20px;
+    
+}
+#recipes .box img{
+    height: 170px;
+    margin: auto;
+    display: block;
+}
+#recipes .box p{
+    color: black;
+    font-family: 'Bree Serif',serif;
+}
+
+#recipe{
+    margin:20px;
+    display: flex;
+}
+#recipe .box{
+    border:2px solid brown;
+    padding:34px;
+    margin:2px 55px;
+    border-radius:28px;
+    background: #f2f2f2;
+    margin-bottom:20px;
+}
+#recipe .box img{
+    height: 180px;
+    margin: auto;
+    display: block;
+}
+#recipe .box p{
+    color: black;
+    font-family: 'Bree Serif',serif;
+}
+
+
+footer{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 100%;
+    background:lightgray;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons,.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    margin: 10px 0px;
+}
+.menu li{
+    list-style: none;
+}
+
+.icons a{
+    font-size: 4em;
+    /*font-size: 40px;*/
+    margin: 0px 10px;
+    display: inline-block;
+    transition: 0.8s;
+}
+.icons a:hover{
+    transform: translateY(-20px);
+}
+.icons .wa{
+    color: rgb(37 211 102);
+}
+.icons .fb{
+    color: rgb(24, 119, 242);
+}
+.icons .in{
+    color: rgb(193 53 132);
+}
+.icons .lk{
+    color: #0e76a8;
+}
+.icons .tw{
+    color: rgb(29, 161, 242);
+}
+
+.menu li a{
+    font-size: 1.8em;
+    /*font-size: 40px;*/
+    margin: 0px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.rating {
+    font-size: 40px;
+}
+
+.clicked {
+    color: gold;
+}
+
+.center1{
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 25px;
+    border: 4px solid #050700;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: rgba(214, 211, 199, 0.212);
+}
+.Vision_Text{
+    font-family: balsamiq sans;
+    font-size: 30px;
+}
+.Mission_Text{
+    font-family: balsamiq sans;
+    font-size: 30px;
+}
+.Values_Text{
+    font-family: balsamiq sans;
+    font-size: 30px;
+}
